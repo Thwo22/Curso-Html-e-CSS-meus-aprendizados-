@@ -1,8 +1,7 @@
-- 👋 Hi, I’m @Thwo22
-- 👀 I’m interested in programação 
-- 🌱 I’m currently learning programar 
-- 💞️ Procuro colaborar em jogos e duetos
-- 📫 Como chegar até mim:@thwo_22
+- 👋 olá, me chamo Thiago!
+- 👀 estou interessado em desenvolvimento front-end
+- 💞️ Procuro colaborar em crição de sites web e programas
+- 📫 Como chegar até mim: thwo28391@gmail.com 
 
 <!---
 Thwo22/Thwo22 is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
