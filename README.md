@@ -1,4 +1,4 @@
-Olá! Neste Repositório irei documentar e registrar meus aprendizados de HTML e CSS3 (todo conteúdo será baseado nos ensinamentos do curso ´HTML E CSS3´ Criado e Disponibido por GUSTAVO GUANABARA em seu canal no youtube ´Curso em Video´.
+
  
 
 <!---
