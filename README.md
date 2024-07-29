@@ -1,5 +1,4 @@
-Olá, Me chamo Thiago Santos, tenho 18 anos e estou me entrando no mundo do desenvolvimento web. Atualmente, estou aprendendo HTML, CSS e TypeScript. Vou usar este espaço para compartilhar minhas descobertas, aprendizados e experiências. Fique à vontade para acompanhar minha jornada e trocar ideias comigo! 
-
+Olá! Neste Repositório irei documentar e registrar meus aprendizados de HTML e CSS3 (todo conteúdo será baseado nos ensinamentos do curso ´HTML E CSS3´ Criado e Disponibido por GUSTAVO GUANABARA em seu canal no youtube ´Curso em Video´.
  
 
 <!---
