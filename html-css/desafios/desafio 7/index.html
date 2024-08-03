@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>DESAFIO 7 - IMAGENS FLEXIVEIS</title>
+
+</head>
+
+<body>
+
+    <h1>Esta gostando da paisagem? experimente diminuir e aumentar a janela!</h1>
+
+    <picture>
+
+    <source media="(max-width:500px )" srcset="imagens/foto-media1.jpg.jpg">
+
+    <source media="(max-width:250px )" srcset="imagens/foto-pequena.jpg">
+
+    <source media="(max-width:100px )" srcset="imagens/foto-pequena2.jpg">
+
+    <source media="(max-width:50px )" srcset="imagens/foto-minuscula.jpg">
+
+    <img src="imagens/foto-full.jpg" alt="foto maxima">
+
+</picture>
+
+
+    
+</body>
+</html>
