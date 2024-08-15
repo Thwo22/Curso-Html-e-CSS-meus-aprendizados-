@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>PERSONALIZAÇÃO DE LINKS</title>
+    <style>
+
+        /* 
+
+        # = id
+        . = class
+        : = pseudo class
+        :: = pseudo elements
+        > = childres 
+
+        */
+
+        body{
+            font-family: sans-serif;
+        }
+
+        a {
+            color: red;
+            text-decoration: none;
+            font-weight: bold;
+            text-indent: 20px;
+        }
+
+        a:visited{
+            color: darkred;
+        }
+
+        a:hover {
+            color: black;
+            text-decoration: underline;
+        }
+
+        a:active {
+            color: yellow;
+        }
+
+        a::before {
+            content: " =>";
+        }
+
+        a::after {
+            content: " <=";
+        }
+        
+
+
+    </style>
+
+</head>
+
+<body>
+
+        <h1>Personalinzando links</h1>
+
+        <ul>
+
+            <li type="none">
+
+                <p>
+                    
+                <img src="imagens/icone-github.png" alt="Meu Github"><a href="https://github.com/Thwo22/Curso-Html-e-CSS-meus-aprendizados-" target="_blank" rel="external"> Repositório do GITHUB</a>
+
+                </p>
+
+            </li>
+        
+            <li type="none">
+
+                <p>
+
+                <img src="imagens/icone-linkedin.png" alt="Meu Linkedin"><a href="https://www.linkedin.com/in/thiago-santos-b23b8a1a4/" target="_blank" rel="external"> Linkedin</a>
+
+                </p>
+
+            </li>
+
+        </ul>
+        
+    </body>
+    </html>
