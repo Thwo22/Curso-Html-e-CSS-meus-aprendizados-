@@ -1,0 +1,265 @@
+body {
+
+   background-image: linear-gradient(rgb(53, 12, 12), black);
+
+    margin: 0px;
+
+    font-family: "Barlow Condensed", sans-serif;
+    font-weight: 100;
+    font-style: normal;
+    font-size: bolder;
+    font-size: 23px;
+    text-align: justify;
+}
+
+body > h1, h2 { 
+   
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+      
+}
+
+  p::first-letter {
+    margin-left: 20px;
+    
+  }
+
+
+header {
+
+    background-image: linear-gradient( #1f1f1f, black);
+   
+    padding: 40px;
+   
+    margin-bottom: 0px;
+    
+    text-align: center;
+
+}
+
+header > h1 {
+
+    font-family: "M PLUS Rounded 1c", sans-serif;
+    font-weight: bolder;
+    font-style: normal;
+    font-size: 80px;
+   
+    margin: 0px;
+    margin-bottom:40px;
+
+}
+
+header > nav > a {
+
+    font-weight: bold;
+    text-align: left;
+    text-decoration: none;
+
+    margin-right: 25px;
+
+    color: rgb(105, 6, 6);
+    
+}
+
+header > nav > a:hover {
+
+    text-decoration: underline;
+    font-size: 30px;
+
+}
+
+section.SF {
+
+    background-color: #121212;
+
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+
+}
+
+section.SF > h1 {
+    
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal; 
+    font-size: 36px;
+    text-align: center; 
+
+    background-color:rgb(78, 4, 4) ;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px black;
+
+    padding: 5px;  
+
+}
+
+section.novidades{
+    
+    background-color: #121212;
+
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+
+}
+
+section.novidades > h2 {
+   
+    background-color:rgb(78, 4, 4) ;
+    border-radius: 3px;
+    text-align: center;
+    font-size: 32px;
+    box-shadow: 3px 3px 10px black;
+
+    padding: 5px; 
+
+}
+
+section.recepcao {
+
+    background-color: #121212;
+   
+    padding: 10px;
+    width: 800px;
+    margin: auto;
+
+    margin-bottom:20PX;
+
+}
+
+section.recepcao > h1  {
+
+    background-color:rgb(78, 4, 4) ;
+    border-radius: 3px;
+
+    text-align: center;
+    
+
+    padding: 5px; 
+}
+
+section.recepcao > h2 {
+
+    background-color:rgb(78, 4, 4) ;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px black;
+
+    text-align: center;
+    font-size: 32px;
+
+    padding: 5px; 
+}
+
+.container {
+
+    text-align: center;
+
+}
+
+strong.especial {
+
+    background-color: rgba(255, 255, 0, 0.322);
+    margin: 0px;
+    
+}
+section.trailer {
+
+   background-color: #121212;
+
+   padding: 10px;
+   width: 800px;
+   height: 500px; 
+   margin: auto;
+   margin-bottom: 20px;
+   
+}
+
+section.trailer > h1 {
+
+    font-family: "Bebas Neue", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    text-align: center;
+    font-size: 32px;
+
+    background-color:rgb(78, 4, 4) ;
+    border-radius: 3px;
+    box-shadow: 3px 3px 10px black;
+
+    padding: 5px; 
+
+}
+
+section.trailer > p.descricaotrailer {
+
+    text-align: left;
+
+}
+
+
+
+footer {
+
+   background-color: #121212;
+   border-radius: 10px 0px;
+
+   padding: 10px;
+   width: 800px;
+   height: 250px; 
+   margin: auto;
+   margin-bottom: 20px;
+
+
+}
+
+.assistir {
+
+    text-decoration: none;
+    color: brown;
+
+}
+
+.assistir:hover {
+
+    text-decoration: underline;
+    font-size: 30px;
+
+}
+
+.contato {
+
+    text-decoration: none;
+    margin-bottom: 5px;
+
+}
+
+.iconectt {
+
+    text-align: center;  
+    
+    
+}
+
+.iconectt > a > img {
+
+    border-radius: 50%;
+
+}
+
+.iconectt > a > img:hover {
+
+    height: 42px;
+    width: 42px;
+    box-shadow: 5px 5px 10px rgb(0, 0, 0);
+
+}
+ 
+
+p.autoria {
+
+    text-align: center;
+    font-weight: bolder;
+    
+}
