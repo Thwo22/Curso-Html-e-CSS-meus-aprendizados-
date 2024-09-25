@@ -1,3 +1,11 @@
+@import url('https://fonts.googleapis.com/css2?family=Caveat:wght@400..700&family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Edu+AU+VIC+WA+NT+Guides:wght@400..700&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&display=swap');
+
+:root {
+    --font-p: "Caveat", sans-serif;
+    --font-h1:  "Roboto Condensed", sans-serif;
+
+}
 * {
    margin: 0;
    padding: 0;
@@ -6,6 +14,7 @@
 html, body {
     background-color: darkgray;
     min-height: 100vh;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
 
 header {
@@ -17,6 +26,8 @@ header {
 header > h1 {
     padding-top: 50px;
     font-variant: small-caps;
+    font-family: var(--font-h1);
+    font-size: 10vw;
 }
 
 header > p {
@@ -34,10 +45,11 @@ a:hover {
 }
 
 section {
+    font-family: var(--font-p);
+    font-size: 5vw;
     padding-top: 10vh;
     padding-bottom: 10vh;
-    line-height: 2em;
-    padding-left: 30px;
+    line-height: 1em;
 }
 
 section.normal {
@@ -52,7 +64,8 @@ section.imagem {
 
 section.imagem > p {
     background-color: rgba(0, 0, 0, 0.288);
-    width: 540px;
+    display: inline-block;
+    padding: 5px;
 }
 
 footer {
