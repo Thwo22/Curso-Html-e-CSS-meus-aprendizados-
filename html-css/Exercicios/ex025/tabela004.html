@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELAS</title>
+    <style>
+        body {
+            background-color: rgb(20, 20, 20);
+            font-family: Arial, Helvetica, sans-serif;
+            font-weight: bolder;
+        }
+
+        h1 {
+            text-align: center;
+            color: white;
+        }
+
+        table {
+            margin: auto;
+            width: 800px;
+            border-collapse: collapse;
+            color: white;
+            text-shadow: 1px 1px 3px black;
+        }
+
+        table > th, tr, td {
+            border: solid 1px black;
+            text-align: center;
+            padding: 10px;
+            background-color: rgb(53, 53, 53);
+        }
+
+        .title {
+            background-color:rgb(173, 173, 36);
+        }
+        
+        .fem {
+            background-color: pink;
+        }
+
+        .mas {
+            background-color: lightblue;
+        }
+    </style>
+</head>
+<body>
+    <h1>Filmes Favoritos</h1>
+    <table>
+        <tr>
+            <td class="title">Grupos
+            <td class="title">Nomes
+            <td colspan="3" class="title">Filmes
+        </tr>
+
+        <tr>
+            <td rowspan="3" class="fem">Mulheres</td>
+            <td>Geovana Souza</td>
+            <td>O Rei Leão</td>
+            <td>A Espera De Um Milagre</td>
+            <td>O Corcunda de Notre Dame</td>
+        </tr>
+
+        <tr>  
+            <td>Ágata Evaristo</td>
+            <td>Avatar</td>
+            <td>como treinar seu Dragão</td>
+            <td>Paranorman</td>
+        </tr>
+
+        <tr>
+            <td>Melissa Xim</td>
+            <td>Jack e a Mecânica do Coração</td>
+            <td>Alice no Pais das Maravilhas</td>
+            <td>As Memórias de Marnie</td>
+        </tr>
+
+        <tr>
+            <td rowspan="3" class="mas">Homens</td>
+            <td>Thiago Santos</td>
+            <td>O Hobbit</td>
+            <td>Requiem para um Sonho</td>
+            <td>Isle Dogs</td>
+        </tr>
+
+        <tr>
+            <td>Mario</td>
+            <td>Seven</td>
+            <td>Interestelar</td>
+            <td>Rogue One</td>
+        </tr>
+
+        <tr>
+            <td>Paulo Henrique</td>
+            <td>Old Boy</td>
+            <td>Laranja Mecânica</td>
+            <td>Le Samourai</td>
+        </tr>
+    </table>
+</body>
+</html>
