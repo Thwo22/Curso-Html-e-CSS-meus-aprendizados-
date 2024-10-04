@@ -7,6 +7,7 @@
     <style>
 
         table {
+            position: relative;
             text-align: center;
             width: 500px;
             border-collapse: collapse;
@@ -21,9 +22,16 @@
         }
 
         thead {
-            background-color: rgb(59, 59, 59);
+            background-color: #3b3b3b;
             color: white;
             font-weight: bolder;
+        }
+
+        thead >tr >th{
+            position: sticky;
+            top: -1px;
+            background-color: #3b3b3b;
+            border:solid 1px black;
         }
         td{
             border: 1px solid black;
