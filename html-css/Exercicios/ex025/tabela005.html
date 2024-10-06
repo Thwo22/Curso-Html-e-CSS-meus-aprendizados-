@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>tabela colgroup</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table{
+            width: 500px;
+            border-collapse: collapse;
+        }
+
+        caption{
+            font-size: 1.3em;
+            font-weight: bolder;
+            padding: 8px;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 8px;
+        }
+
+        col.nome {
+            background-color: yellow;
+        }
+
+        col.sexo {
+            background-color: lightblue;
+        }
+
+        col.idade {
+            background-color: purple;
+        } 
+    </style>
+</head>
+<body>
+    <table>
+        <caption>CADASTRO</caption>
+        <colgroup>
+        <col class="nome">
+        <col class="sexo">
+        <col class="idade" span="2">
+        <col class="profissao">
+        </colgroup>
+        <tr>
+            <th scope="col">Nome</th>
+            <th scope="col">Sexo</th>
+            <th scope="col">Idade</th>         
+            <th scope="col">Profissão</th>
+        </tr>
+
+        <tr>
+           <td>Ana Maria</td>
+           <td>F</td>
+           <td>25</td>
+           <td>Jornalista</td>
+        </tr>
+
+        <tr>
+            <td>Pedro Henrique</td>
+            <td>M</td>
+            <td>19</td>
+            <td>JARDINEIRO</td>
+        </tr>
+
+        <tr>
+            <td>Raphaela Oliveira</td>
+            <td>F</td>
+            <td>32</td>
+            <td>BANCARIA</td>
+        </tr>
+
+        <tr>
+            <td>David Azevedo</td>
+            <td>M</td>
+            <td>41</td>
+            <td>ATENDENDE</td>
+        </tr>
+
+        <tr>
+            <td>Maria Das Dores</td>
+            <td>F</td>
+            <td>36</td>
+            <td>VENDEDORA</td>
+        </tr>
+
+        <tr>
+            <td>Jaccan Pirlo</td>
+            <td>M</td>
+            <td>18</td>
+            <td>COZINHEIRO</td>
+        </tr>
+    </table>
+
+</body>
+</html>
