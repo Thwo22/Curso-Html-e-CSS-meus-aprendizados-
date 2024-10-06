@@ -24,7 +24,7 @@
             text-shadow: 1px 1px 3px black;
         }
 
-        table > th, tr, td {
+        th, tr, td {
             border: solid 1px black;
             text-align: center;
             padding: 10px;
@@ -42,19 +42,25 @@
         .mas {
             background-color: lightblue;
         }
+
+        .total {
+             background-color:rgb(173, 173, 36);
+        }
     </style>
 </head>
 <body>
     <h1>Filmes Favoritos</h1>
     <table>
-        <tr>
-            <td class="title">Grupos
-            <td class="title">Nomes
-            <td colspan="3" class="title">Filmes
-        </tr>
+        <thead>
+            <tr>
+                <th scope="col" class="title">Grupos
+                <th class="title" scope="col">Nomes
+                <th colspan="3" class="title" scope="colgroup">Filmes
+            </tr>
+        </thead>
 
         <tr>
-            <td rowspan="3" class="fem">Mulheres</td>
+            <th scope="rowgroup" rowspan="3" class="fem">Mulheres</td>
             <td>Geovana Souza</td>
             <td>O Rei Leão</td>
             <td>A Espera De Um Milagre</td>
@@ -76,7 +82,7 @@
         </tr>
 
         <tr>
-            <td rowspan="3" class="mas">Homens</td>
+            <th scope="rowgroup" rowspan="3" class="mas">Homens</td>
             <td>Thiago Santos</td>
             <td>O Hobbit</td>
             <td>Requiem para um Sonho</td>
@@ -96,6 +102,9 @@
             <td>Laranja Mecânica</td>
             <td>Le Samourai</td>
         </tr>
+        <tr>
+            <th scope="row" colspan="4" class="total">TOTAL</th>
+            <td>1000</td>
     </table>
 </body>
 </html>
