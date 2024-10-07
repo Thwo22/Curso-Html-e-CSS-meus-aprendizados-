@@ -1,0 +1,200 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TABELAS RESPONSIVAS</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        table{
+            margin: auto;
+            width: 800px;
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        caption{
+            background-color:rgb(177, 177, 177) ;
+            padding: 10px;
+            font-weight: bolder;
+        }
+        
+        tr:nth-child(even) {
+            background-color: rgb(177, 177, 177);
+        }
+
+        tr, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            margin: 40px;
+        }
+
+    div#container {
+        overflow-x: auto;
+       
+    }
+        
+    </style>
+</head>
+<body>
+
+    <h1>tabelas responsivas</h1>
+    <p>abaixo veremos uma tabela com overflox-x: auto, isso significa que, mesmo que a resolucão do dispositivo nao comporte a tabela por completo, essa declaração cria uma rolagem lateral SOMENTE para a tabela.</p>
+
+    <div id="container">
+        <table>
+            <thead>
+                <caption>VENDAS</caption>
+                <th scope="col">produtos</th>
+                <th scope="col">jan</th>
+                <th scope="col">fev</th>
+                <th scope="col">mar</th>
+                <th scope="col">abr</th>
+                <th scope="col">mai</th>
+                <th scope="col">jun</th>
+                <th scope="col">jul</th>
+                <th scope="col">ago</th>
+                <th scope="col">set</th>
+                <th scope="col">out</th>
+                <th scope="col">nov</th>
+                <th scope="col">dez</th>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Celulares</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Geladeira</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Microondas</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Ferro de passar</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Panelas</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Ventilador</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>Tablets</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+                <tr>
+                    <td>livros</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                    <td>1</td>
+                    <td>5</td>
+                    <td>10</td>
+                    <td>15</td>
+                    <td>20</td>
+                    <td>25</td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    
+    <p>PERCEBA QUE O CONTEUDO ABAIXO CONTINUA RESPONSIVO ENQUANTO SOMENTE A TABELA ESTA COM ROLAGEM LATERAL. Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolor mollitia optio doloribus, ipsa excepturi iste commodi totam rem, ipsum magnam illo autem quaerat similique explicabo, necessitatibus sequi? Accusantium, eius ipsum? Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit ad veniam mollitia corporis atque ratione architecto neque soluta ex magni? Iste totam suscipit corrupti fugit necessitatibus optio voluptatem debitis accusantium. Lorem, ipsum dolor sit amet consectetur adipisicing elit. Modi ipsa aliquam ab ad obcaecati earum aut doloremque est omnis tenetur! Ex fuga repudiandae accusamus. Sint perferendis ipsum cupiditate suscipit ea?
+        </p>
+        
+    
+</body>
+</html>
