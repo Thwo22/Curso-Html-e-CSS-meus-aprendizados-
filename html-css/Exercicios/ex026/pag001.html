@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>pagina teste</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            
+        }
+
+        table{
+            margin: auto;
+            width: 800px;
+            padding: 10px;
+            border: 1px solid black;
+            border-collapse: collapse;
+        }
+
+        caption{
+            background-color:rgb(177, 177, 177) ;
+            padding: 10px;
+            font-weight: bolder;
+        }
+        
+        tr:nth-child(even) {
+            background-color: rgb(177, 177, 177);
+        }
+
+        tr, th, td {
+            border: 1px solid black;
+            padding: 10px;
+            text-align: center;
+        }
+
+        p {
+            text-align: justify;
+            margin: 40px;
+        }
+
+    div#container {
+        overflow-x: auto;
+       
+    }
+    </style>
+</head>
+<body>
+
+    <h1>isso é um teste</h1>
+
+    <table>
+        <thead>
+            <tr>
+                <th scope="col" class="title">Grupos
+                <th class="title" scope="col">Nomes
+                <th colspan="3" class="title" scope="colgroup">Filmes
+            </tr>
+        </thead>
+
+        <tr>
+            <th scope="rowgroup" rowspan="3" class="fem">Mulheres</td>
+            <td>Geovana Souza</td>
+            <td>O Rei Leão</td>
+            <td>A Espera De Um Milagre</td>
+            <td>O Corcunda de Notre Dame</td>
+        </tr>
+
+        <tr>  
+            <td>Ágata Evaristo</td>
+            <td>Avatar</td>
+            <td>como treinar seu Dragão</td>
+            <td>Paranorman</td>
+        </tr>
+
+        <tr>
+            <td>Melissa Xim</td>
+            <td>Jack e a Mecânica do Coração</td>
+            <td>Alice no Pais das Maravilhas</td>
+            <td>As Memórias de Marnie</td>
+        </tr>
+
+        <tr>
+            <th scope="rowgroup" rowspan="3" class="mas">Homens</td>
+            <td>Thiago Santos</td>
+            <td>O Hobbit</td>
+            <td>Requiem para um Sonho</td>
+            <td>Isle Dogs</td>
+        </tr>
+
+        <tr>
+            <td>Mario</td>
+            <td>Seven</td>
+            <td>Interestelar</td>
+            <td>Rogue One</td>
+        </tr>
+
+        <tr>
+            <td>Paulo Henrique</td>
+            <td>Old Boy</td>
+            <td>Laranja Mecânica</td>
+            <td>Le Samourai</td>
+        </tr>
+        <tr>
+            <th scope="row" colspan="4" class="total">TOTAL</th>
+            <td>1000</td>
+    </table>
+    
+</body>
+</html>
