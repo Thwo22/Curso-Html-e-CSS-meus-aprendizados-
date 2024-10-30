@@ -47,6 +47,8 @@ menu a {
 }
 menu a:hover {
     background-color: lightgray;
+    color: black;
+    font-weight: bolder;
 }
 
 main {

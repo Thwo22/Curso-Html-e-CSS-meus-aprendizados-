@@ -1,0 +1,24 @@
+@charset "UTF-8";
+/*TYPICAL DEVICE BREAKPOINTS
+----------------------------
+PEQUENAS TELAS: até 479px
+CELULARES MÉDIOS: 480px até 767px
+TABLETS E DISPOSITIVOS MÉDIOS: 768px até 1023px
+DESKTOPS PEQUENOS: 1024px até 1279px
+DESKTOPS MÉDIOS A GRANDES: 1280px até 1919px
+DESKTOPS E TELAS ULTRALARGAS: 1920px acima */
+
+@media screen and (min-width: 767px) {
+    #burger {
+        display: none;
+    }
+    menu {
+        display: block;
+    }
+    menu li {
+        display: inline-block;
+    }
+    main {
+        width: 767px;
+    }
+}
