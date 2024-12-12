@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Flex-basis (grow and shrink)</title>
+    <style>
+        *{
+            padding: 0;
+            margin: 0;
+        }
+        html {
+            background-color: rgb(30, 30, 30);
+        }
+        .container {
+            display: flex;
+
+            background-color: brown;
+            width: 50%;
+            height: 5rem;
+            margin: 3rem auto;
+
+            flex-flow: row nowrap;
+            justify-content: flex-start;
+            align-items: center;
+        }
+
+        
+        #foto {
+            background: url(https://i.pinimg.com/736x/51/d8/09/51d809ad640ce61a894562da4ea47155.jpg)no-repeat center/cover;
+
+            height: 100%;
+            flex-basis: 100px;
+
+            flex-grow:0 ;
+            flex-shrink:0 ;
+        }
+        #foto2 {
+            background: url(https://i.pinimg.com/736x/a6/98/49/a698494baa09ee97e7e2b4b2d4b997c7.jpg)no-repeat center/cover;
+            height: 100%;
+            flex-basis: 100px;
+
+            flex-grow:0 ;
+            flex-shrink:2 ; 
+        }
+        #foto3 {
+            background: url(https://i.pinimg.com/736x/ca/cb/5f/cacb5fddf63a4e23d5441592bb3dc8a7.jpg)no-repeat center/cover;
+            height: 100%;
+            flex-basis: 100px;
+
+            flex-grow:0 ;
+            flex-shrink:3 ; 
+        }
+
+
+        #fala, #fala2, #fala3 {
+            flex-basis: 350px;
+            padding: 15px;
+            color: white;
+        }
+        #fala {
+            flex-grow:1 ;
+            flex-shrink: 1;
+        }
+        #fala2 {
+            flex-grow:0 ;
+            flex-shrink:2;
+        }
+        #fala3 {
+            flex-grow:1 ;
+            flex-shrink: 3;
+            flex-basis: 200px;
+        }
+
+
+        #fell, #fell2, #fell3 {
+            align-self: auto;
+            padding: 15px;
+        }
+        #fell {
+            flex-grow:0;
+            flex-shrink:1;
+            color: rgb(5, 157, 5);
+        }
+        #fell2 {
+            flex-grow:1;
+            flex-shrink:1;
+            color: yellow;
+        }
+        #fell3 {
+            flex-grow:1;
+            flex-shrink:1;
+            color: lightskyblue;
+        }
+    </style>
+</head>
+<body>
+
+    <Div class="container">
+        <div class="item" id="foto"></div>
+
+        <div class="item" id="fala">
+            <p>Olá, veja esse flex-grow/shrink</p>
+        </div>
+
+        <div class="item" id="fell"> 
+            <h1>Neutro</h1>
+        </div>
+    </Div>
+
+    <Div class="container">
+        <div class="item" id="foto2"></div>
+        
+        <div class="item" id="fala2">
+            <p>Olá, veja esse flex-grow/shrink</p>
+        </div>
+
+        <div class="item" id="fell2"> 
+            <h1>Feliz</h1>
+        </div>
+    </Div>
+
+    <Div class="container">
+        <div class="item" id="foto3"></div>
+
+        <div class="item" id="fala3">
+            <p>Olá, veja esse flex-grow/shrink</p>
+        </div>
+
+        <div class="item" id="fell3"> 
+            <h1>Triste</h1>
+        </div>
+    </Div>
+    
+    
+</body>
+</html>
