@@ -1,0 +1,104 @@
+@charset "UTF-8";
+
+@import url('https://fonts.googleapis.com/css2?family=Cagliostro&family=Croissant+One&family=Emilys+Candy&family=Itim&family=Kaisei+Decol&family=Lexend+Zetta:wght@100..900&family=Outfit:wght@100..900&family=Yellowtail&display=swap');
+
+
+
+* {
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-color: rgb(55, 55, 55);
+}
+
+header {
+    background-color: burlywood;
+    display: block;
+    width: 100%;
+
+    justify-content: center;
+    align-items: center;
+    flex-flow: row wrap;
+}
+
+.h1 {
+    font-family: "Emilys Candy", serif;
+    font-size: 22px;
+    text-align: center;
+    color: rgb(159, 111, 14);
+    padding: 10px;
+
+    flex-basis: 250px;
+    flex: 1 1 auto;
+}
+.opcoes {
+    display: block;
+    flex: 1 1 auto;
+}
+
+.item {
+    background-color: black;
+    color: white;
+    border: solid 2px white;
+    padding: 20px;
+    margin: 5px;
+    text-align: center;
+
+    flex: 0 1 auto;
+}
+.item:hover {
+    background-color: white;
+    color: black;
+    border: solid 2px black;
+    font-weight: bolder;
+
+    transition-duration: 0.3s;
+}
+
+.container {
+    background: white url(https://i.pinimg.com/736x/73/b7/23/73b723e2339a45ae4a415158f916e6b0.jpg) no-repeat center/cover;
+    color: white;
+    text-shadow: 0 0 10px black;
+    box-shadow: inset 0 0 15px black;
+
+    margin: 2em;
+    padding: 20px;
+    border-radius: 8px;
+}
+
+.container h1 {
+    color: yellow;
+}
+
+.container p {
+    font-family: "Emilys Candy", serif;
+    font-size: 19px;
+    font-weight: bold;
+}
+
+.container a {
+    background-color: rgba(255, 255, 0, 0.66);
+    color: white;
+    font-weight: bolder;
+}
+
+@media screen and (min-width:620px) {
+    header {
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+    }
+    .opcoes {
+        display: flex;
+        flex: 1 1 auto;
+    }
+    .item {
+        flex-basis: 120px;
+    }
+    .container p {
+        font-weight: normal;
+    }
+
+}
